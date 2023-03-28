@@ -9,6 +9,9 @@
 
 const backpack = {
   name: "Everyday Backpack",
+  changeName: function (newName) {
+    this.name = newName;
+  },
   volume: 30,
   color: "grey",
   pocketNum: 15,
